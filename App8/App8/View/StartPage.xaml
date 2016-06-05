@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App8.View.StartPage" Title="AWQS">
+  <StackLayout Padding="20">
+  <Label Text="Air and Water Quality System" VerticalOptions="Center" HorizontalOptions="Center" FontSize="40" />
+    <Label Text ="Pick Location"/>
+    <Button Text="House" Clicked="HouseButton_Clicked"/>
+    <Button Text="Farm" Clicked="FarmButton_Clicked"/>
+</StackLayout>
+</ContentPage>

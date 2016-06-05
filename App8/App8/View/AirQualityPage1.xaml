@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App8.View.AirQualityPage1"
+             Title ="Air Quality">
+  
+ <ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness"
+                iOS="0, 20, 0, 0" />
+  </ContentPage.Padding>
+
+
+
+<StackLayout Padding="20">
+
+  
+  <Button  Text="Air Quality"  Font="Large" />
+
+    <Label x:Name ="Status" Text="Normal" FontSize="20" />
+
+    <Button Text="Details" />
+
+
+    <Button Text ="Hi Mary! Air quality near your house is normal, with no abnomalities noticed. To view weekly or monthly report, please click details. "/>
+
+  <!--</Grid>-->
+  
+
+</StackLayout>
+</ContentPage>

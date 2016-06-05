@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App8.View.HousePage">
+  <StackLayout Padding="20">
+    <Label Text="Check Water Quality" VerticalOptions="Center" HorizontalOptions="Start" FontSize="20" />
+    <Button Text="Water Quality" Clicked="WaterQualityButton_Clicked"/>
+    <Label Text="Check Air Quality" VerticalOptions="Center" HorizontalOptions="Start" FontSize="20" />
+    <Button Text="Air Quality" Clicked="AirQualityButton_Clicked"/>
+  </StackLayout>
+</ContentPage>
